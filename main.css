@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Mont';
+    background: url('img/download.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px 0;
+    font-family: 'JetBrains';
+}
+
+span {
+    font-family: 'JetBrains';
+}
+
+.social-icons a {
+    padding: 5px;
+}
+
+
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 30px;
+}
+
+.spotify {
+    width: 38px;
+}
+
+
+.links {
+    margin-top: 20px;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.link-item:hover {
+    background: #444;
+}
+
+.link-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.git-icon {
+    background: url('img/kisspng-github-computer-icons-icon-design-desktop-wallpape-5b2dbc19c03b47.8932712915297239297874.png') no-repeat center center;
+    background-size: cover;
+}
+
+.instagram-icon {
+    background: url('img/instagram-icon-url.png') no-repeat center center;
+    background-size: cover;
+}

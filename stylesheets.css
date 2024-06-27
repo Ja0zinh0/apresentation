@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'Mont';
+    src: url(fonts/MontSerrat/Montserrat-VariableFont_wght.ttf);
+}
+
+
+@font-face {
+    font-family: 'JetBrains';
+    src: url(fonts/JetBrainsMono/JetBrainsMono-VariableFont_wght.ttf);
+}
